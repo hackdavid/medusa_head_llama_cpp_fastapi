@@ -11,7 +11,7 @@ This project is an experimental setup designed to test the **Vicuna model** (a L
 Efficient inference at scale is challenging. Standard token-by-token generation becomes a bottleneck for response time. This project explores how combining **speculative decoding (Medusa)** and **dynamic batching** can drastically improve throughput while maintaining low latency.
 
 
-## Note :  it might not work for now because there is different implementation of forward method in llama_cp and need a lots of time to analysis and deep-down to find out the correct way.
+Note :  it might not work for now because there is different implementation of forward method in llama_cp to adjust with custom medusa head weights and need a lots of time to analysis and deep-down to find out the correct way.
 ---
 
 ## Model Optimization Methods Mostly Used
